@@ -1,0 +1,49 @@
+* {
+    font-family: sans-serif;
+}
+main {
+    background-color: darkgrey;
+    margin: 20px 5px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin-left: auto;
+    margin-right: auto; 
+}
+#img-caption {
+    font-size: 20px;
+}
+#img-div {
+    background-color: white;
+    margin: 20px;
+    padding-bottom: 20px;
+}
+#tribute-info {
+    width: 600px;
+    text-align: left;
+    margin: auto;
+}
+li {
+    margin: 20px;
+    font-size: 15;
+}
+a {
+    color: black;
+    text-decoration: inherit;
+    font-weight: bold;
+}
+.tri {
+    font-style: italic;
+}
+#trid {
+    text-align: right;
+}
+#wiki {
+    font-size: 20px;
+}

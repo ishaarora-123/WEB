@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Student Survey</title>
+        <link rel="stylesheet" href="surveycss.css" type="text/css">
+    </head>
+    <body>
+        <div class="main1"  style="margin: 0px;">
+        <h1 id="title">Student Survey Form</h1>
+        <p id="description">Thank you for taking the time to fill this form to fill</p>
+        <div class="form">
+        <form id="survey-form">
+            <label id="name-label">Name<br><input id="name" type="text" placeholder="Enter your Name" required class="input"></label><br>
+            <label id="email-label">Email<br><input id="email" type="email" placeholder="Enter your Email" required class="input"></label><br>
+            <label id="number-label1">Registration number<br><input id="number1" type="number" placeholder="Registration No." class="input"></label><br>
+            <label id="number-label">Age<br><input id="number" type="number" placeholder="Age" class="input" min="2" max="30"></label><br>
+            <p>How long have you been a student here?</p>
+            <select id="dropdown" class="dropdown">
+                <option>Select one</option>
+                <option>Less than a month</option>
+                <option>1-6 months</option>
+                <option>6 months to 1 year</option>
+                <option>More than 1 year</option>
+                <option>1-3 years</option>
+                <option>More than 3 years</option>
+            </select><br>
+            <p>Which subject(s) do you like the most?</p>
+            <input type="checkbox" name="language" id="english" value="english">
+            <label for="english">English</label><br>
+            <input type="checkbox" name="language" id="mathematics" value="mathematics">
+            <label for="mathematics">Mathematics</label><br>
+            <input type="checkbox" name="language" id="economics" value="economics">
+            <label for="economics">Economics</label><br>
+            <input type="checkbox" name="language" id="physics" value="physics">
+            <label for="physics">Physics</label><br>
+            <input type="checkbox" name="language" id="chemistry" value="chemistry">
+            <label for="chemistry">Chemistry</label><br>
+            <input type="checkbox" name="language" id="biology" value="biology">
+            <label for="biology">Biology</label><br>
+            <p>In which club are you in?</p>
+            <select id="dropdown" class="dropdown">
+                <option>No Club</option>
+                <option>Arts Club</option>
+                <option>Chess Club</option>
+                <option>Sports Club</option>
+                <option>Cookery Club</option>
+                <option>Photography Club</option>
+                <option>Quiz Club</option>
+            </select><br>
+            <p>How likely are you to recommend our school to a friend or colleague?</p>
+            <input type="radio" name="recommend" id="verylikely" value="verlikely">
+            <label for="verylikely">Very Likely</label><br>
+            <input type="radio" name="recommend" id="somewhatlikely" value="somewhatlikely">
+            <label for="somewhatlikely">Somewhat likely</label><br>
+            <input type="radio" name="recommend" id="unsure" value="unsure">
+            <label for="unsure">Unsure</label><br>
+            <input type="radio" name="recommend" id="notverylikely" value="notverylikely">
+            <label for="notverylikely">Not very likely</label><br>
+            <input type="radio" name="recommend" id="verylikely" value="verylikely">
+            <label for="verylikely">Very likely</label><br>
+            <p>Anything you want to say?</p>
+            <textarea id="textarea" name="textarea" placeholder="Enter Your Comments Here.."></textarea><br>
+            <button id="submit">Submit</button>
+        </form>
+        </div>
+        </div>
+    </body>
+</html>
